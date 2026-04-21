@@ -11,6 +11,8 @@ const { device } = Astro.props;
 const { Content } = await render(device);
 const d = device.data;
 
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
 const statusColor: Record<string, string> = {
   '可用': 'bg-green-100 text-green-800',
   '使用中': 'bg-yellow-100 text-yellow-800',
@@ -19,7 +21,7 @@ const statusColor: Record<string, string> = {
 ---
 <Layout title={`${d.name} — 实验室设备库`}>
   <div class="mb-4">
-    <a href="/" class="text-sm text-blue-600 hover:underline">← 返回设备列表</a>
+    <a href={base || '/'} class="text-sm text-blue-600 hover:underline">← 返回设备列表</a>
   </div>
 
   <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
@@ -27,10 +29,10 @@ const statusColor: Record<string, string> = {
       <!-- Image -->
       <div class="md:w-96 shrink-0 bg-gray-100">
         <img
-          src={d.image}
+          src={base + d.image}
           alt={d.name}
           class="w-full h-64 md:h-full object-cover"
-          onerror="this.src='/images/placeholder.svg'"
+          onerror={`this.src='${base}/images/placeholder.svg'`}
         />
       </div>
 
@@ -76,12 +78,12 @@ const statusColor: Record<string, string> = {
         {(d.manual_pdf || d.datasheet_pdf) && (
           <div class="flex flex-wrap gap-3">
             {d.manual_pdf && (
-              <a href={d.manual_pdf} target="_blank" class="inline-flex items-center gap-1.5 text-sm bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+              <a href={base + d.manual_pdf} target="_blank" class="inline-flex items-center gap-1.5 text-sm bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                 📄 用户手册
               </a>
             )}
             {d.datasheet_pdf && (
-              <a href={d.datasheet_pdf} target="_blank" class="inline-flex items-center gap-1.5 text-sm bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200">
+              <a href={base + d.datasheet_pdf} target="_blank" class="inline-flex items-center gap-1.5 text-sm bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200">
                 📋 Datasheet
               </a>
             )}

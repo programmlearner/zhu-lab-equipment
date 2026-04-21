@@ -10,6 +10,7 @@ interface Props {
   tags: string[];
 }
 const { slug, name, brand, model, category, status, image, tags } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const statusColor: Record<string, string> = {
   '可用': 'bg-green-100 text-green-800',
@@ -18,7 +19,7 @@ const statusColor: Record<string, string> = {
 };
 ---
 <a
-  href={`/equipment/${slug}`}
+  href={`${base}/equipment/${slug}`}
   class="device-card block bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 overflow-hidden"
   data-category={category}
   data-status={status}
@@ -27,11 +28,11 @@ const statusColor: Record<string, string> = {
 >
   <div class="aspect-video bg-gray-100 overflow-hidden">
     <img
-      src={image}
+      src={base + image}
       alt={name}
       class="w-full h-full object-cover"
       loading="lazy"
-      onerror="this.src='/images/placeholder.svg'"
+      onerror={`this.src='${base}/images/placeholder.svg'`}
     />
   </div>
   <div class="p-4">
