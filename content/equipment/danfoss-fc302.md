@@ -1,5 +1,5 @@
 ---
-name: "变频器"
+name: "Danfoss三相逆变器"
 category: "电源设备"
 tags: ["变频器", "VFD", "三相", "5.5kW"]
 brand: "Danfoss"
