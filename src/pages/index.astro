@@ -77,7 +77,7 @@ const statuses = ['可用', '使用中', '维修中', '待到货'];
       const matchStatus = !activeStatus || card.dataset.status === activeStatus;
       const matchSearch = !q || (card.dataset.search ?? '').includes(q);
       const show = matchCat && matchStatus && matchSearch;
-      card.parentElement!.style.display = show ? '' : 'none';
+      card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
 
