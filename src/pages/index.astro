@@ -7,7 +7,7 @@ const allDevices = await getCollection('equipment');
 allDevices.sort((a, b) => a.data.category.localeCompare(b.data.category, 'zh'));
 
 const categories = [...new Set(allDevices.map(d => d.data.category))].sort((a, b) => a.localeCompare(b, 'zh'));
-const statuses = ['可用', '使用中', '维修中'];
+const statuses = ['可用', '使用中', '维修中', '待到货'];
 ---
 <Layout>
   <div class="mb-6">

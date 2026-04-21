@@ -10,7 +10,7 @@ const equipment = defineCollection({
     brand: z.string(),
     model: z.string(),
     location: z.string().optional(),
-    status: z.enum(['可用', '使用中', '维修中']).default('可用'),
+    status: z.enum(['可用', '使用中', '维修中', '待到货']).default('可用'),
     image: z.string(),
     manual_pdf: z.string().optional(),
     datasheet_pdf: z.string().optional(),
