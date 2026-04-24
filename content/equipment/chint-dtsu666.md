@@ -6,6 +6,7 @@ brand: "CHINT 正泰"
 model: "DTSU666"
 status: "可用"
 image: "/images/chint-dtsu666.jpg"
+manual_pdf: "/manuals/测量仪器/chint-dtsu666-manual.pdf"
 specs:
   额定电压: "3×220/380V"
   额定频率: "50Hz"

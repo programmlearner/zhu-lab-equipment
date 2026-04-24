@@ -6,6 +6,7 @@ brand: "Tektronix"
 model: "TDS 2022C"
 status: "可用"
 image: "/images/tektronix-tds2022c.jpg"
+manual_pdf: "/manuals/测量仪器/tektronix-tds2022c-manual.pdf"
 specs:
   带宽: "200 MHz"
   采样率: "2 GS/s"
