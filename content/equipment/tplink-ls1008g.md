@@ -6,6 +6,7 @@ brand: "TP-Link"
 model: "LS1008G"
 status: "可用"
 image: "/images/tplink-ls1008g.jpg"
+manual_pdf: "/manuals/网络设备/tplink-ls1008g-manual.pdf"
 specs:
   端口数: "8×RJ45 千兆"
   交换容量: "16Gbps"

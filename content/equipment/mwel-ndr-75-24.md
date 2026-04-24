@@ -6,6 +6,7 @@ brand: "MWEL"
 model: "NDR-75-24"
 status: "可用"
 image: "/images/mwel-ndr-75-24.jpg"
+datasheet_pdf: "/manuals/电源设备/mwel-ndr-75-24-datasheet.pdf"
 specs:
   输入电压: "100~240VAC, 1.6A, 50/60Hz"
   输出电压: "24V DC (可调)"

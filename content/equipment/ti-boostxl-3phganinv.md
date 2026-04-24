@@ -6,6 +6,7 @@ brand: "Texas Instruments"
 model: "BOOSTXL-3PHGANINV"
 status: "可用"
 image: "/images/ti-boostxl-3phganinv.jpg"
+manual_pdf: "/manuals/计算平台/ti-boostxl-3phganinv-userguide.pdf"
 specs:
   拓扑: "三相半桥逆变器"
   开关器件: "GaN FET"
