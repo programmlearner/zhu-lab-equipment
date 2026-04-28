@@ -27,3 +27,6 @@ RIGOL DP832 是一款三通道可编程直流电源，带彩色 LCD 显示屏，
 ## 注意事项
 - CH1/CH2 最高 30V/3A，CH3 仅 5V/3A，勿超额定值。
 - 正（红）负（黑）接线柱勿短路。
+
+## 调研档案
+选型对比、原版手册归档于项目内部 Nutstore：`Physical Platform/CityU_HK/06_DC_Power_Supply/`（实验室成员内部可访问，不公开）。

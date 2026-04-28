@@ -38,3 +38,9 @@ InsRealm RTScale 是基于 FPGA 的超高速实时仿真平台，仿真步长可
 ## 注意事项
 - HDL Coder 对 Simulink 模块支持有限制，不支持的模块需手动替换
 - 具体报错解决方案参见 `HDLCoder报错解决.pdf`（软件工具词条）
+
+## 调研档案
+RTScale 安装包、Simulink/HDL 工程示例、Danfoss 模型与联调资料归档于项目内部 Nutstore：`Physical Platform/CityU_HK/05_RT_Simulator/Simulink_HDL/` 与 `Software/`（实验室成员内部可访问，不公开）。控制器选型阶段曾对比 Plexim B-Box / RT-box、YXSPACE 等候选方案，资料在 `04_RT_Controller/`。
+
+## 案例演示视频归档
+基于 RTScale 的 RCP / HIL / LLC 实时仿真案例演示视频（来自 https://www.insrealm.com/spzx_08271717_191）归档于本机 `C:\Users\Xiangyu.Cityus\Documents\InsRealm-Demos\`（含 4 个 MP4 + 4 张海报封面 + README.md）。

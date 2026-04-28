@@ -26,3 +26,6 @@ Micsig DP1500A 高压差分探头，最高可测 1500 V pk 差分信号，用于
 ## 注意事项
 - 使用前必须按 Zero 键校零。
 - 不可超过最大差分电压 1500 V。
+
+## 调研档案
+选型对比、厂家询价归档于项目内部 Nutstore：`Physical Platform/CityU_HK/01_Oscilloscope/Probe/Voltage_Probe/`（实验室成员内部可访问，不公开）。

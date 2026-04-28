@@ -24,3 +24,6 @@ Rohde & Schwarz RTM3004 是实验室旗舰示波器，4 通道，5 GSa/s，10-bi
 
 ## 注意事项
 - 最大输入 400 V (CAT II)，高压测量需配合差分探头。
+
+## 调研档案
+选型对比、厂家询价、采购单据归档于项目内部 Nutstore：`Physical Platform/CityU_HK/01_Oscilloscope/`（实验室成员内部可访问，不公开）。

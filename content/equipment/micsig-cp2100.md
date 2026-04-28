@@ -24,3 +24,6 @@ Micsig CP2100 低频交直流电流探头，采用霍尔效应传感器，无需
 ## 注意事项
 - 导线居中夹入以保证测量精度。
 - 使用前校零（在无电流状态下按 Zero 键）。
+
+## 调研档案
+选型对比（含 R&S RT-ZC 系列等替代方案）、厂家询价归档于项目内部 Nutstore：`Physical Platform/CityU_HK/01_Oscilloscope/Probe/Current_Probe/`（实验室成员内部可访问，不公开）。
