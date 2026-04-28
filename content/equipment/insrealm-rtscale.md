@@ -44,3 +44,28 @@ RTScale 安装包、Simulink/HDL 工程示例、Danfoss 模型与联调资料归
 
 ## 案例演示视频归档
 基于 RTScale 的 RCP / HIL / LLC 实时仿真案例演示视频（来自 https://www.insrealm.com/spzx_08271717_191）归档于本机 `C:\Users\Xiangyu.Cityus\Documents\InsRealm-Demos\`（含 4 个 MP4 + 4 张海报封面 + README.md）。
+
+## 厂家信息（InsRealm · 杭州瞬迦科技有限公司）
+
+- **官网**：https://www.insrealm.com/
+- **官方案例演示**：https://www.insrealm.com/spzx_08271717_191
+- **电话**：400-066-1130
+- **Email**：service@insrealm.com
+- **地址**：浙江省杭州市萧山区宁围街道建设三路 733 号信息港五期 9 号楼 9106
+
+### 产品线（同厂家其它型号，便于未来扩展时参考）
+
+| 类别 | 型号 | 定位 |
+|------|------|------|
+| 软件平台 | **Insrealm**（基于 Simulink） | 上位实时仿真工具链 |
+| 软件平台 | **InScope** | 实时参数标定与采集 |
+| 硬件平台 | **RTPi** | 性价比入门仿真器 |
+| 硬件平台 | **RTScale**（实验室在用） | 均衡型中端仿真器（FPGA 亚微秒级） |
+| 硬件平台 | **RTCenter** | 高端性能仿真器 |
+| 解决方案 | 电机电控 / 高校科研教学 | 行业方案 |
+
+### 资源中心
+
+- **成功案例**：https://www.insrealm.com/cgal_v
+- **案例演示**：https://www.insrealm.com/spzx_08271717_191（4 段官方 demo 视频，本仓库 RTScale 词条上方"案例演示视频归档"已离线保存）
+- **使用教程**：https://www.insrealm.com/sygjj
