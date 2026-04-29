@@ -5,7 +5,7 @@ tags: ["LCL", "滤波器", "并网", "自制PCB", "功率电子"]
 brand: "CityU Zhu Lab 自制"
 model: "LCLFilter v1.0 (Altium PCB)"
 status: "可用"
-image: "/images/placeholder.svg"
+image: "/images/lcl-filter.jpg"
 specs:
   拓扑: "三相 LCL 滤波器"
   逆变器侧电感 L1: "2 mH（手绕铁芯环形）"
@@ -19,7 +19,21 @@ specs:
 
 ## 简介
 
-LCL 滤波器是并网逆变器与电网之间的无源接口，用于衰减逆变器开关谐波，使并网电流满足 IEEE 1547 / GB/T 14549 谐波标准。本滤波器为实验室 FYP 项目定制设计的三相 PCB，配合 Danfoss VLT FC302 逆变器使用。
+LCL 滤波器是并网逆变器与电网之间的无源接口，用于衰减逆变器开关谐波，使并网电流满足 IEEE 1547 / GB/T 14549 谐波标准。本滤波器为实验室 FYP 项目定制设计的三相 PCB，配合 Danfoss VLT FC302 逆变器使用。**实物已于 2026-04-29 到货登记。**
+
+---
+
+## 实物照片（2026-04-29 到货）
+
+![LCL 滤波器整体外观](/images/lcl-filter.jpg)
+
+![LCL 滤波器视角 2](/images/lcl-filter-2.jpg)
+
+![LCL 滤波器视角 3](/images/lcl-filter-3.jpg)
+
+![LCL 滤波器视角 4](/images/lcl-filter-4.jpg)
+
+![LCL 滤波器视角 5](/images/lcl-filter-5.jpg)
 
 ---
 
